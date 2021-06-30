@@ -9,7 +9,7 @@
 /* HERO IMAGE CODE STARTS */
 .heroImage {
     background-image: linear-gradient(#00d4fe 0%, #001d24 90%);
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,14 +20,23 @@
 .heroText {
     display: inline-block;
     text-align: center;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
     position: absolute;
 }
 /* HERO IMAGE CODE ENDS */
+
+.heroImage svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 
 .articleDiv {
     margin: 4vh 12vw;
@@ -58,6 +67,6 @@
 
 .footerText {
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     margin: 10vh 0;
 }
